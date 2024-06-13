@@ -1,0 +1,70 @@
+.navbar {
+    height: 80px;
+
+    .link {
+        text-decoration: none;
+        color: inherit;
+    }
+
+    .wepper {
+
+        padding: 15px 30px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: rgb(234, 249, 249);
+        border-bottom: 2px solid gainsboro;
+        border-radius: 20px;
+
+
+        .left {
+            display: flex;
+            gap: 20px;
+            align-items: center;
+        }
+
+        .center {
+            font-size: 20px;
+            letter-spacing: 2px;
+            align-items: center;
+        }
+
+        .right {
+            display: flex;
+            gap: 20px;
+            align-items: center;
+
+            .icons {
+                display: flex;
+                gap: 20px;
+                align-self: center;
+
+                .cardIcon {
+                    position: relative;
+
+                    span {
+                        height: 18px;
+                        width: 18px;
+                        position: absolute;
+                        left: 12px;
+                        right: 0;
+                        color: rgb(237, 237, 243);
+                        font-size: 18px;
+
+                        justify-content: center;
+                        align-items: center;
+                        display: flex;
+                        top: -8px;
+                        border-radius: 100%;
+                        background-color: blue;
+
+                    }
+                }
+            }
+        }
+
+        .item {
+            font-size: 18px;
+        }
+    }
+}
